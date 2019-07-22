@@ -1,0 +1,388 @@
+
+/* 
+    Created on : 12-Mar-2018, 5:54:19 PM
+    Author     : elliottadic
+    main.css stylesheet will be read and used by main.php
+*/
+
+body{
+    min-height:700px;
+    min-width: 1280px;
+    margin: 0;
+    padding: 0;
+    background: url(../images/Background.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.title{
+
+    padding: 50px ;  
+    padding-bottom: 10px;
+}
+
+.title h1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 65px
+}
+
+.title p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 25px;
+
+}
+
+
+.title input[name="redirect"]{
+    float:left;
+    margin-top: -36px;
+    margin-left: 286px;
+    background: rgba(255, 255, 255,0.4);
+    border: 1px solid black;
+    border-bottom: none;
+    outline: none;
+    height: 30px;
+    width: 120px;
+    font-size: 15px;
+    border-radius: 15px 15px 0px 0px;
+
+
+}
+
+.title input[name="redirect2"]{
+    float:right;
+    margin-top: -36px;
+    margin-left: 363px;
+    background: rgba(255, 255, 255,0.4);
+    border: 1px solid black;
+    border-bottom: none;
+    outline: none;
+    height: 30px;
+    width: 120px;
+    font-size: 15px;
+    border-radius: 15px 15px 0px 0px;
+
+
+}
+
+
+.container{
+
+    width: 50%;
+    height: 400px;
+    background: rgba(127,126,123,0.6);
+    margin: 0 auto;
+    margin-top: -20px;
+    opacity: 1;
+    border-radius: 15px;
+    box-shadow: 0px 15px 40px rgba(0,0,0,.5);
+    box-sizing: border-box;
+    border: 2px solid black;
+
+}
+
+.container p[id="titleEth"]{
+
+    float: right;
+    margin: 7px 20px 0px 0px;
+    font-size:15px;
+
+
+}
+.container p[id="titleBtc"]{
+
+    float: right;
+    margin: 7px 20px 0px 0px;
+    font-size:15px;
+
+
+}
+.container p[id="titleLtc"]{
+
+    float: right;
+    margin: 7px 20px 0px 0px;
+    font-size:15px;
+
+
+}
+.container p[id="titleTrx"]{
+
+    float: right;
+    margin: 7px 20px 0px 0px;
+    font-size:15px;
+
+
+}
+.container p[id="CurrentValueEth"]{
+
+    float: right;
+    margin: -24px 22px 0px 0px;
+    font-size:15px;
+
+}
+.container p[id="CurrentValueBtc"]{
+    display: inline;
+    float: right;
+    margin: -24px 22px 0px 0px;
+    font-size:15px;
+
+}
+.container p[id="CurrentValueLtc"]{
+    display: inline;
+    float: right;
+    margin: -24px 22px 0px 0px;
+    font-size:15px;
+
+}
+.container p[id="CurrentValueTrx"]{
+    display: inline;
+    float: right;
+    margin: -24px 22px 0px 0px;
+    font-size:15px;
+
+}
+
+.container p[id="LabelEth"]{
+
+    text-align: center;
+    padding:0;
+    margin: 22px 0px 0px 0px;
+    font-size:25px;
+
+}
+.container p[id="LabelBtc"]{
+
+    text-align: center;
+    padding:0;
+    margin: 22px 0px 0px 0px;
+    font-size:25px;
+
+}
+.container p[id="LabelLtc"]{
+
+    text-align: center;
+    padding:0;
+    margin: 22px 0px 0px 0px;
+    font-size:25px;
+
+}
+.container p[id="LabelTrx"]{
+
+    text-align: center;
+    padding:0;
+    margin: 22px 0px 0px 0px;
+    font-size:25px;
+
+}
+
+.container p[id="HoldingsEth"]{
+
+    text-align: center;
+    padding: 0;
+    margin: -12px 0px 15px 0px;
+    font-size:20px;
+
+}
+.container p[id="HoldingsBtc"]{
+
+    text-align: center;
+    padding: 0;
+    margin: -12px 0px 15px 0px;
+    font-size:20px;
+
+}
+.container p[id="HoldingsLtc"]{
+
+    text-align: center;
+    padding: 0;
+    margin: -12px 0px 15px 0px;
+    font-size:20px;
+
+}
+.container p[id="HoldingsTrx"]{
+
+    text-align: center;
+    padding: 0;
+    margin: -12px 0px 15px 0px;
+    font-size:20px;
+
+}
+
+.container h2{
+    margin: 70px 0px 0px 10px;
+    font-weight: bold;
+    font-size: 45px;
+    display: inline;
+
+}
+
+.container input[name="BalanceEth"]{
+
+    background: rgba(255, 255, 255,0.4);
+    margin: 10px 0px 0px 38px;
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+    width: 120px;
+    font-size: 12px;
+    border-radius: 15px;
+
+
+}
+
+.container input[name="BalanceBtc"]{
+
+    background: rgba(255, 255, 255,0.4);
+    margin: 10px 0px 0px 38px;
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+    width: 120px;
+    font-size: 12px;
+    border-radius: 15px;
+
+
+}
+
+.container input[name="BalanceLtc"]{
+
+    background: rgba(255, 255, 255,0.4);
+    margin: 10px 0px 0px 38px;
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+    width: 120px;
+    font-size: 12px;
+    border-radius: 15px;
+
+
+}
+
+.container input[name="BalanceTrx"]{
+
+    background: rgba(255, 255, 255,0.4);
+    margin: 10px 0px 0px 38px;
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+    width: 120px;
+    font-size: 12px;
+    border-radius: 15px;
+
+
+}
+
+
+form{ 
+
+    display: inline-block; 
+
+}
+
+.container input[name="LastPrice"]{
+
+    background: rgba(255, 255, 255,0.4);
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+    width: 120px;
+    font-size: 12px;
+    border-radius: 15px;
+
+
+}
+
+.container img[id="2"]
+{
+    margin: 8px 0px 0px 10px;
+    display:inline;
+    float: left;
+    width:  35px;
+    height: 35px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+.container img[id="3"]
+{
+    margin: 8px 0px 0px 10px;
+    display:inline;
+    float: left;
+    width:  35px;
+    height: 35px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+.container img[id="4"]
+{
+    margin: 8px 0px 0px 10px;
+    display:inline;
+    float: left;
+    width:  35px;
+    height: 35px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+.container img[id="1"]
+{
+    margin: 4px 0px 0px 10px;
+    display:inline;
+    float: left;
+    width:  30px;
+    height: 45px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+.ETH{
+
+    float: left;
+    width: 50%;
+    height: 50%;
+    border-radius: 15px 0px 0px 0px;
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    background: rgba(127,126,123,0.6);
+
+}
+
+.BTC{
+
+    float: left;
+    width: 50%;
+    height: 50%;
+    border-radius: 0px 15px 0px 0px;
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+
+    background: rgba(127,126,123,0.6);
+}
+
+.LTC{
+    float: left;
+    width: 50%;
+    height: 50%;
+    border-radius: 0px 0px 0px 15px;
+    box-sizing: border-box;
+    border-right: 2px solid black;
+    background: rgba(127,126,123,0.6);
+}
+
+.TRX{
+    float: left;
+    width: 50%;
+    height: 50%;
+    border-radius: 0px 0px 15px 0px;
+    background: rgba(127,126,123,0.6);
+}

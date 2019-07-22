@@ -1,0 +1,104 @@
+
+/* 
+    Created on : 10-Mar-2018, 4:09:51 PM
+    Author     : Elliot Tadic
+    Final Project
+    charts.css is the stylesheet read from by charts.php
+*/
+
+body{
+    min-height:700px;
+    min-width: 1280px;
+    margin: 0;
+    padding: 0;
+    background: url(../images/Background.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.title{
+    
+    padding: 50px ;  
+    padding-bottom: 10px;
+}
+
+.title h1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 65px
+}
+
+.title p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 25px;
+
+}
+
+
+.title input[name="redirect"]{
+    float:left;
+    margin-top: -36px;
+    margin-left: 286px;
+    background: rgba(255, 255, 255,0.4);
+    border: 1px solid black;
+    border-bottom: none;
+    outline: none;
+    height: 30px;
+    width: 120px;
+    font-size: 15px;
+    border-radius: 15px 15px 0px 0px;
+
+
+}
+
+.title input[name="redirect2"]{
+    float:right;
+    margin-top: -36px;
+    margin-left: 363px;
+    background: rgba(255, 255, 255,0.4);
+    border: 1px solid black;
+    border-bottom: none;
+    outline: none;
+    height: 30px;
+    width: 120px;
+    font-size: 15px;
+    border-radius: 15px 15px 0px 0px;
+
+
+}
+
+
+.container{
+
+    width: 50%;
+    height: 400px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: -20px;
+    border-radius: 15px;
+    box-shadow: 0px 15px 40px rgba(0,0,0,.5);
+    box-sizing: border-box;
+    border: 2px solid black;
+
+}
+
+form{ 
+
+    display: inline-block; 
+
+}
+
+.container .piechart{
+    height: 396px; 
+    width: 90%; 
+    margin-left: 30px; 
+    border-bottom: 2px solid black;
+    bottom:0px;
+
+}
+

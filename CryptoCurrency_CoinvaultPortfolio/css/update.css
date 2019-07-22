@@ -1,0 +1,252 @@
+
+/* 
+    Created on : 6-Apr-2018, 5:16:00 PM
+    Author     : elliottadic
+
+update.css is read by: updateBalanceTrx.php, updateBalanceEth.php, 
+                       updateBalanceBtc.php, updateBalanceLtc.php,
+                       createUser.php
+*/
+
+
+body{
+    min-height:700px;
+    min-width: 1280px;
+    margin: 0;
+    padding: 0;
+    background: url(../images/Background.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.title{
+    text-align: center;
+    padding: 50px ;  
+    padding-bottom: 10px;
+}
+
+.title h1{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 65px
+}
+
+.title p{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 25px;
+
+}
+
+.container{
+
+    width: 25%;
+    height: 300px;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: -20px;
+    opacity: 1;
+    border-radius: 15px;
+    box-shadow: 0px 15px 40px rgba(0,0,0,.5);
+    box-sizing: border-box;
+    border: 2px solid black;
+
+}
+
+
+
+
+
+
+.container h2{
+    text-align: center;
+    margin: 37px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 45px;
+    display: inline-block;
+
+}
+
+
+form{ 
+
+    display: inline-block; 
+
+}
+
+
+
+
+.container img[id="1"]
+{
+    margin: 42px 0px 0px 92px;
+    display:inline;
+    float: left;
+    width:  30px;
+    height: 45px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+   
+}
+
+.container img[id="2"]
+{
+    margin: 42px 0px 0px 92px;
+    display:inline;
+    float: left;
+    width:  35px;
+    height: 35px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+.container img[id="3"]
+{
+    margin: 45px 0px 0px 92px;
+    display:inline;
+    float: left;
+    width:  35px;
+    height: 35px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+.container img[id="4"]
+{
+   margin: 45px 0px 0px 92px;
+    display:inline;
+    float: left;
+    width:  35px;
+    height: 35px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+.container input[type="text"]{
+    
+    border: none;
+    border-bottom: 2px solid #52565b;
+    outline: none;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 20px;
+    
+}
+
+.container input[type="submit"]{
+ 
+    border: 1px solid black;
+    outline: none;
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 60px;
+    border-radius: 15px;
+     font-size:15px;
+}
+
+
+.error{
+    text-align: center;
+    
+    padding:0;
+    font-size: 12px;
+   
+    margin-left: 100px;
+    color: red;
+    
+}
+
+
+.container2{
+
+    width: 25%;
+    height: 350px;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: -20px;
+    opacity: 1;
+    border-radius: 15px;
+    box-shadow: 0px 15px 40px rgba(0,0,0,.5);
+    box-sizing: border-box;
+    border: 2px solid black;
+
+}
+
+
+.containerForm{
+    margin-top: 20px;
+    width:100%;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    height: 290px;
+    background: #ffffff;
+    border-radius: 15px;
+    
+    
+}
+
+.containerForm h2{
+   text-align: center;
+   padding-top: 40px;
+
+}
+
+.containerForm p{
+    float: left;
+    margin-top: 10px;
+    margin-left: 65px;
+    padding:0;
+    font-weight: bold;
+ 
+}
+
+
+
+.containerForm input[type="text"]{
+    
+    border: none;
+    border-bottom: 2px solid #52565b;
+    outline: none;
+    height: 40px;
+    margin-top: -10px;
+    margin-left: 95px;
+}
+
+.containerForm input[type="password"]{
+    border: none;
+    border-bottom: 2px solid #52565b;
+    outline: none;
+    height: 40px;
+    margin-top: -10px;
+    margin-left: 95px;
+    
+}
+
+.containerForm input[type="submit"]{
+ 
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+    width: 150px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    border-radius: 15px;
+     font-size:15px;
+}
+
+.error2{
+    text-align: center;
+    
+    padding:0;
+    font-size: 12px;
+    margin-top: -95px;
+    margin-left: 95px;
+    color: red;
+    
+}
