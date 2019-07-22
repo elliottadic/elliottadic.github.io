@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/elliottadic/Desktop/ProjectsWeb/RoseBanquetHallBookingSystem-Group1-FinalProject/web/editClient.jsp</file>
+            <file>file:/Users/elliottadic/Desktop/ProjectsWeb/RoseBanquetHallBookingSystem-Group1-FinalProject/web/editHall.jsp</file>
+            <file>file:/Users/elliottadic/Desktop/ProjectsWeb/RoseBanquetHallBookingSystem-Group1-FinalProject/web/bookHall.jsp</file>
+            <file>file:/Users/elliottadic/Desktop/ProjectsWeb/RoseBanquetHallBookingSystem-Group1-FinalProject/web/HallAdmin.jsp</file>
+            <file>file:/Users/elliottadic/Desktop/ProjectsWeb/RoseBanquetHallBookingSystem-Group1-FinalProject/web/ClientAdmin.jsp</file>
+            <file>file:/Users/elliottadic/Desktop/ProjectsWeb/RoseBanquetHallBookingSystem-Group1-FinalProject/src/java/data/DBManager.java</file>
+            <file>file:/Users/elliottadic/Desktop/ProjectsWeb/RoseBanquetHallBookingSystem-Group1-FinalProject/web/deleteClient.jsp</file>
+            <file>file:/Users/elliottadic/Desktop/ProjectsWeb/RoseBanquetHallBookingSystem-Group1-FinalProject/web/deleteHalls.jsp</file>
+            <file>file:/Users/elliottadic/Desktop/ProjectsWeb/RoseBanquetHallBookingSystem-Group1-FinalProject/web/editBooking.jsp</file>
+            <file>file:/Users/elliottadic/Desktop/ProjectsWeb/RoseBanquetHallBookingSystem-Group1-FinalProject/web/registerClient.jsp</file>
+            <file>file:/Users/elliottadic/Desktop/ProjectsWeb/RoseBanquetHallBookingSystem-Group1-FinalProject/src/java/RoseBanquetHallServletThree.java</file>
+            <file>file:/Users/elliottadic/Desktop/ProjectsWeb/RoseBanquetHallBookingSystem-Group1-FinalProject/src/java/data/ClientDAO.java</file>
+            <file>file:/Users/elliottadic/Desktop/ProjectsWeb/RoseBanquetHallBookingSystem-Group1-FinalProject/web/addHall.jsp</file>
+            <file>file:/Users/elliottadic/Desktop/ProjectsWeb/RoseBanquetHallBookingSystem-Group1-FinalProject/web/deleteBooking.jsp</file>
+            <file>file:/Users/elliottadic/Desktop/ProjectsWeb/RoseBanquetHallBookingSystem-Group1-FinalProject/web/BookingAdmin.jsp</file>
+            <file>file:/Users/elliottadic/Desktop/ProjectsWeb/RoseBanquetHallBookingSystem-Group1-FinalProject/web/index.jsp</file>
+            <file>file:/Users/elliottadic/Desktop/ProjectsWeb/RoseBanquetHallBookingSystem-Group1-FinalProject/src/java/data/BookingDAO.java</file>
+        </group>
+    </open-files>
+</project-private>
