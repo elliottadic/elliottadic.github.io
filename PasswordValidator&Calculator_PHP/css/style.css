@@ -1,0 +1,121 @@
+
+/* 
+    Description: Stylesheet for login page
+    Created on : 29-Mar-2018, 1:43:18 PM
+    Author     : elliottadic
+*/
+
+body{
+    min-height:700px;
+    min-width: 1250px;
+    margin: 0;
+    padding: 0;
+    background: url(../images/School.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.title{
+    text-align: center;
+    padding: 50px ;  
+    padding-bottom: 10px;
+}
+
+.title h1{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 65px
+}
+
+
+.container{
+    width: 25%;
+    height: 500px;
+    background: #ffffff;
+    margin: 0 auto;
+    opacity: 1;
+    border-radius: 15px;
+    box-shadow: 0px 15px 40px rgba(0,0,0,.5);
+    border: 2px solid black;
+    
+}
+
+
+.containerForm{
+    
+    width:100%;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    height: 400px;
+    background: #ffffff;
+    border-radius: 15px;
+    
+    
+}
+
+.containerForm h2{
+   text-align: center;
+   padding-top: 40px;
+
+}
+
+.containerForm p{
+    float: left;
+    margin-top: 10px;
+    margin-left: 65px;
+    padding:0;
+    font-weight: bold;
+ 
+}
+
+.containerForm input{
+    
+    margin-bottom: 40px;
+    
+}
+
+.containerForm input[type="text"]{
+    
+    border: none;
+    border-bottom: 2px solid #52565b;
+    outline: none;
+    height: 40px;
+    margin-top: -10px;
+    margin-left: 95px;
+}
+
+
+
+.containerForm input[type="password"]{
+    border: none;
+    border-bottom: 2px solid #52565b;
+    outline: none;
+    height: 40px;
+    margin-top: -10px;
+    margin-left: 95px;
+    
+}
+
+.containerForm input[type="submit"]{
+ 
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 60px;
+    border-radius: 15px;
+    font-size:15px;
+}
+
+.error{
+    float: left;
+    margin-left: 65px;
+    padding:0;
+    font-size: 12px;
+    margin-top: -30px;
+    margin-left: 95px;
+    color: red;
+    
+}

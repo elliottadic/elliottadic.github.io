@@ -1,0 +1,133 @@
+
+/* 
+    Description: Stylesheet for home page
+    Created on : 29-Mar-2018, 2:05:48 PM
+    Author     : elliottadic
+*/
+
+body{
+    min-height:700px;
+    min-width: 1250px;
+    margin: 0;
+    padding: 0;
+    background: url(../images/School.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.title{
+    text-align: center;
+    padding: 50px ;  
+    padding-bottom: 10px;
+}
+
+.title h1{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 65px
+}
+
+
+.container{
+    width: 40%;
+    height: 700px;
+    background: #ffffff;
+    margin: 0 auto;
+    opacity: 1;
+    border-radius: 15px;
+    box-shadow: 0px 15px 40px rgba(0,0,0,.5);
+    border: 2px solid black;
+    
+}
+
+
+.containerForm{
+    
+    width:100%;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    height: 400px;
+    background: #ffffff;
+    border-radius: 15px;
+    
+    
+}
+
+
+.containerForm h2{
+   text-align: center;
+   padding-top: 5px;
+
+}
+
+
+.containerForm p{
+    text-align: center;
+    font-size: 18px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 65px;
+    padding:0;
+   
+ 
+}
+
+.containerForm input{
+    
+    margin-bottom: 10px;
+    
+}
+
+.containerForm input[type="text"]{
+    
+    border: none;
+    border-bottom: 2px solid #52565b;
+    outline: none;
+    height: 20px;
+    
+    margin-top: 10px;
+    margin-left: 95px;
+}
+
+
+
+
+
+.containerForm input[type="submit"]{
+ 
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 150px;
+    border-radius: 15px;
+    font-size:15px;
+    
+}
+
+.error{
+    padding:0;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-left: 95px;
+    color: red;
+    
+}
+
+
+
+.info{
+    
+     margin-top: -40px;
+     margin-left: 50px;
+}
+.info table{
+    
+    font-size: 15px;
+   
+    padding:0;
+    
+    width: 100%;}
+
